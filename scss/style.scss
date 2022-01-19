@@ -9,7 +9,7 @@ body{
 	background:#19191b;
 }
 header {
-	width: 350px; height: 100vh; position: absolute; top: 0px; left: 0px;
+	width: 350px; height: 100vh; position: relative;
 	background: rgba(0,0,0,.2); backdrop-filter: blur(5px); z-index: 4;
   
 	h1{
@@ -116,7 +116,7 @@ header {
 		height:300px;
 		margin: 6px;
 		position: absolute;
-		top: 960px;
+		top: 0px;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		
@@ -169,15 +169,15 @@ header {
 
 #info {
 	width: 100%;
-	position: relative; top:0; left:0;
+	position: relative; 
 	z-index: 10;
 
 	.inner {
 		width: 100%;
 		height: 100vh;
 		margin: 0 auto;
-		position: relative;
-		top: 1600px;
+		position: absolute;
+		top: 800px;
 		left: 50%;
         float: left;
 		transform: translate(-50%, -50%);
