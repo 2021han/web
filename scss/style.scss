@@ -365,5 +365,164 @@ header {
 	}
 }
 
+#brand {
+	width: 100%;
+	position: relative; 
+	
+	
+	
+
+	.inner {
+		width: 100%;
+		height: 100vh;
+		
+		position: absolute;
+		top: 1200px;
+	
+		h1{ position:absolute; 
+			top:-100px;
+			left:40%;
+			margin:0 auto;
+			color:#fff;
+				}
+
+		.wrap {
+			width: 100%;
+
+			article {
+				&:nth-of-type(1) {
+					width: 45%;
+					height: 500px;
+					background: linear-gradient(#0b141b, #1a2129);
+					float: left;
+					margin-right: 0px;
+					padding: 180px 50px 0;
+					text-align: center;
+
+					img{
+						margin-top:-250px;
+					}
+
+					
+					h2 {
+						font: bold 20px "arial";
+						color: #fff;
+						margin-bottom: 10px;
+					}
+					p {
+						font: 14px/ "arial";
+						color: #999;
+						margin-bottom: 30px;
+					}
+					a {
+						display: block;
+						width: 150px;
+						height: 30px;
+						font: 11px/30px "arial";
+						color: #ddd;
+						border: 1px solid #bbb;
+						margin: 0 auto;
+						margin-bottom: 20px;
+					}
+					.txt1{
+						border-bottom: 1px solid rgb(97, 95, 95);
+						padding:25px;
+					
+						li{
+							
+							float:left; margin-left:50px; 
+							font-size: 20px;
+							font-family: 'Courier New', Courier, monospace;
+							color:#fff; 
+   							
+						}
+					}
+					.txt2{
+						border-bottom: 1px solid rgb(97, 95, 95);
+						padding:25px;
+					
+						li{
+							
+							float:left; margin-left:30px; 
+							
+							font-size: 20px;
+							font-family: 'Courier New', Courier, monospace;
+							color:#fff; 
+   							
+						}
+					}
+					
+				}
+
+				&:nth-of-type(2) {
+					width: 45%;
+					height: 500px;
+					background: linear-gradient(#0b141b, #1a2129);
+					float: left;
+					margin-right: 40px;
+					padding: 180px 50px 0;
+					text-align: center;
+
+					img{
+						margin-top:-250px;
+					}
+
+					
+					h2 {
+						font: bold 20px "arial";
+						color: #fff;
+						margin-bottom: 10px;
+					}
+					p {
+						font: 14px/ "arial";
+						color: #999;
+						margin-bottom: 30px;
+					}
+					a {
+						display: block;
+						width: 150px;
+						height: 30px;
+						font: 11px/30px "arial";
+						color: #ddd;
+						border: 1px solid #bbb;
+						margin: 0 auto;
+						margin-bottom: 20px;
+					}
+					.txt1{
+						border-bottom: 1px solid rgb(97, 95, 95);
+						padding:25px;
+					
+						li{
+							
+							float:left; margin-left:50px; 
+							font-size: 20px;
+							font-family: 'Courier New', Courier, monospace;
+							color:#fff; 
+   							
+						}
+					}
+					.txt2{
+						border-bottom: 1px solid rgb(97, 95, 95);
+						padding:25px;
+					
+						li{
+							
+							float:left; margin-left:30px; 
+							
+							font-size: 20px;
+							font-family: 'Courier New', Courier, monospace;
+							color:#fff; 
+   							
+						}
+					}
+					
+				}
+				
+			}
+		}
+	}
+}
+
+
 
 
